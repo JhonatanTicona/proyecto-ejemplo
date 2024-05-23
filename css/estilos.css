@@ -1,0 +1,155 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+h1{
+    border-radius: 10px;
+    border: 1px solid;
+    padding: 25px;
+}
+nav{
+    background-image: url(fondo6.avif);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px;
+    height: 150px;
+    border-radius: 5px;
+    border: 1px solid;
+    border-color: aqua;
+}
+
+img{
+    border-radius: 10px;
+    
+}
+.contenedor {
+    background-image: url(fondo3.avif);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 20px;
+}
+
+.contenedor-productos {
+    display: grid;
+    grid-template-columns: repeat(2 ,);
+    gap: 20px;
+}
+table{
+    border: 3px solid black;
+    width: 100%;
+    
+    text-align: center;
+}
+th{
+    background-color: rgb(0, 162, 255);
+    border: 3px solid black;
+}
+
+td{
+    background-color: rgb(199, 253, 253);
+    border: 3px solid black;
+
+}
+
+.card-border{
+    transition: all ease-out 0.2s;
+}
+
+.card-border:hover{
+    transform: scale(1.05);
+    border: 5px solid;
+    border-color: aqua;
+}
+
+#productos{
+    background-image: url(fondo1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.producto {
+    background-image: url(fondot.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	border-radius: 10px;
+	padding: 20px;
+    border: 2px solid;
+    border-color: aqua;	
+}
+.textos{
+    color: aqua;
+
+}
+.anuncio {
+    border-radius: 10px;
+    grid-template-columns: 1fr ;
+    
+   
+}
+.imagenes{
+    
+	margin: auto;
+    border: 1px solid ;
+    border-radius: 10px;
+}
+
+.formulario{
+    background-image: url(fondo3.avif);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px;
+    margin: 0 px;
+    width: 100%;
+    height: 90vh;
+    border: 1px solid aqua;
+    display: flex;;
+    align-items: center;  
+}
+#tef{
+    border-color: aqua;
+    color: white;
+   
+}
+form{
+    margin: 0 auto;
+    width: 700px;
+    padding: 1em;
+    border: 5px solid ;
+    border-radius: 1em;
+    border-color: aqua;
+    
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+form li + li{
+    margin-top: 1em;
+}
+label{
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+input{
+    font: 1em sans-serif;
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px solid #000;
+}
+input:focus{
+    border-color:#000;
+}
+#boton{
+    border:2px solid black;
+    background-color: rgb(38, 167, 167);
+}
+
